@@ -9,10 +9,10 @@ app.use(express.json());
 const PORT = 3001;
 
 const db = mysql.createConnection({
-  user: "root",
-  host: "localhost",
-  password: "root",
-  database: "employeesystem",
+  user: "bf5b2c1f1f455b",
+  host: "us-cdbr-east-04.cleardb.com",
+  password: "bb041bec",
+  database: "heroku_9abf11c63f63c1b",
 });
 
 app.post("/create", (req, res) => {
@@ -75,3 +75,5 @@ app.delete("/delete/:id", (req, res) => {
 app.listen(process.env.PORT || PORT, () => {
   console.log(`Port is running on ${PORT}`);
 });
+
+mysql://bf5b2c1f1f455b:bb041bec@us-cdbr-east-04.cleardb.com/heroku_9abf11c63f63c1b?reconnect=true

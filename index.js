@@ -70,6 +70,6 @@ app.delete("/delete/:id", (req, res) => {
   });
 });
 
-app.listen(3001, (req, res) => {
-  console.log("Port is running on 3001");
+app.listen(process.env.PORT || PORT, () => {
+  console.log(`Port is running on ${PORT}`);
 });

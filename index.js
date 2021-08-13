@@ -75,5 +75,3 @@ app.delete("/delete/:id", (req, res) => {
 app.listen(process.env.PORT || PORT, () => {
   console.log(`Port is running on ${PORT}`);
 });
-
-// mysql://bf5b2c1f1f455b:bb041bec@us-cdbr-east-04.cleardb.com/heroku_9abf11c63f63c1b?reconnect=true

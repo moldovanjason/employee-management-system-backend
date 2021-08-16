@@ -7,5 +7,5 @@ I use express for easier use to create database tables.
 
 Deployed the backend with heroku.
 I create api's in the backend to dynamicly manipulate the dom.
-Api's for adding new employees, updating the employees wage and deleting an individual employee.
+Api's for adding new employees, updating a single employees wage and deleting an individual employee.
 

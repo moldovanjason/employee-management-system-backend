@@ -9,3 +9,5 @@ Deployed the backend with heroku.
 I create api's in the backend to dynamicly manipulate the dom.
 Api's for adding new employees, updating a single employees wage and deleting an individual employee.
 
+Using 5 differnt inputs to store in 5 differnt react hooks to then submit into the data base using the add employee button.
+Using axios post request to send all data stored from the react hooks from the frontend to the backend and then store into the database then back to the frontend mapping through another hook to display the data onto the browser.

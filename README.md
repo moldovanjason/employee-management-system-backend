@@ -11,4 +11,7 @@ Api's for adding new employees, updating a single employees wage and deleting an
 
 Using 5 differnt inputs to store in 5 differnt react hooks to then submit into the data base using the add employee button.
 Using axios post request to send all data stored from the react hooks from the frontend to the backend and then store into the database then back to the frontend mapping through another hook to display the data onto the browser.
-![crud-begin](https://user-images.githubusercontent.com/66877732/129643926-f9c3b9ea-207c-41c7-a282-113530698c78.png)
+
+![employee management system 2](https://user-images.githubusercontent.com/66877732/130728016-8fc54110-de94-4834-927e-61e2952fd227.png)
+![employee management system](https://user-images.githubusercontent.com/66877732/130728018-5117d592-b383-4dc9-ad55-be1f3f98a18f.png)
+

@@ -2,6 +2,7 @@
 
 employee-management-system-backend is the backend secion of crud-begin-font.
 The primary languages I've used in this project are Node.js, Express and mysql.
+I've used MySQL Workbench to see a visual of my database.
 I used a 3rd party appliction called mysql workbench to visual see the database i created.
 I use express for easier use to create database tables.
 
